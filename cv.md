@@ -17,3 +17,24 @@ I'm a 24 years old now radio engineer of tomography and worked at my last office
  - C++ (Basic)
  - MS Acces
  - Oracle RDBMS
+## Code examples
+Part of my resolution to task from previously studying at the university. Approximation of the function. Least squares method
+```C++
+int main()
+{
+	int i, j, k, h, g, m, n;
+	float p , r , u, x[22], f[22], d[22], c[3][4], a[3], s = 0.0, q[22];
+
+	fopen_s(&O, "rezult_out.txt", "r+");
+	fscanf_s(O, "%f %f %d %d", &p, &r, &n, &m);
+	fclose(O);
+
+	cout << "Znachenie funkcii v uzlovih tochkah:" << endl;
+	for (i = 1; i <= m; i++)  //считаем и выводим значение функции в узловых точках
+	{
+		x[i] = p + (i - 1)*(r - p) / (m - 1);
+		f[i] = 4 * x[i] - 7 * sin(x[i]);
+		printf("x%i=%2.2f  f(X%i)=%3.6f\n", i, x[i], i, f[i]);
+	}
+	printf("\n");
+```
