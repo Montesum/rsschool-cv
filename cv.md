@@ -48,3 +48,7 @@ _Speciality - Radio engineering in the areas of Programmable electronic faciliti
 _Speciality - Business Informatics, 2021-2023_
 ### The Rolling Scopes School educational program 
 _Speciality - JS / Front-end, 2023-... (in progress)_
+## Languages
+ - Belorussian - Native
+ - Russian - Native
+ - English - B2
