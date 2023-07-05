@@ -38,3 +38,13 @@ int main()
 	}
 	printf("\n");
 ```
+## Work Experience
+ - Engineer of Tomography / 2020-2023
+ - Newcomer in JS
+## Education
+### Belarusian State University of Informatics and Radioelectronics
+_Speciality - Radio engineering in the areas of Programmable electronic facilities, 2016-2020_
+### Belarusian National Technical University
+_Speciality - Business Informatics, 2021-2023_
+### The Rolling Scopes School educational program 
+_Speciality - JS / Front-end, 2023-... (in progress)_
